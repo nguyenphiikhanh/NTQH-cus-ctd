@@ -79,7 +79,7 @@
                 <li class="nk-menu-item">
                     <a href="#" class="nk-menu-link">
                         <span class="nk-menu-icon"><em class="icon ni ni-todo-fill"></em></span>
-                        <span class="nk-menu-text">Quản lý lớp</span>
+                        <span class="nk-menu-text">Quản lý Chi đoàn</span>
                     </a>
                 </li><!-- .nk-menu-item -->
             </router-link>
@@ -87,7 +87,7 @@
                 <li class="nk-menu-item">
                     <a href="#" class="nk-menu-link">
                         <span class="nk-menu-icon"><em class="icon ni ni-todo-fill"></em></span>
-                        <span class="nk-menu-text">Xem đánh giá lớp</span>
+                        <span class="nk-menu-text">Xem đánh giá Chi đoàn</span>
                     </a>
                 </li><!-- .nk-menu-item -->
             </router-link>
@@ -121,7 +121,7 @@
                 <li class="nk-menu-item">
                     <a href="#" class="nk-menu-link">
                         <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
-                        <span class="nk-menu-text">Họp đánh giá lớp</span>
+                        <span class="nk-menu-text">Họp đánh giá Chi đoàn</span>
                     </a>
                 </li><!-- .nk-menu-item -->
             </router-link>
@@ -129,7 +129,7 @@
                 <li class="nk-menu-item">
                     <a href="#" class="nk-menu-link">
                         <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
-                        <span class="nk-menu-text">Họp đánh giá lớp</span>
+                        <span class="nk-menu-text">Họp đánh giá Chi đoàn</span>
                     </a>
                 </li><!-- .nk-menu-item -->
             </router-link>

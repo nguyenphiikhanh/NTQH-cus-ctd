@@ -40,7 +40,7 @@
                                         <p>Lớp</p>
                                     </td>
                                     <td style="height: 35px; width: 239px; text-align: center;">
-                                        <p>CVHT</p>
+                                        <p>LCĐ Khoa</p>
                                     </td>
                                 </template>
                             </tr>
