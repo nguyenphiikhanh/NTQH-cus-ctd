@@ -83,14 +83,6 @@
                     </a>
                 </li><!-- .nk-menu-item -->
             </router-link>
-            <router-link v-if="user.role == roles.ROLE_BI_THU_DOAN" :to="{name: 'NvspPoint'}">
-                <li class="nk-menu-item">
-                    <a href="#" class="nk-menu-link">
-                        <span class="nk-menu-icon"><em class="icon ni ni-todo-fill"></em></span>
-                        <span class="nk-menu-text">Xem điểm tuần NVSP</span>
-                    </a>
-                </li><!-- .nk-menu-item -->
-            </router-link>
             <router-link v-if="user.role == roles.ROLE_BI_THU_DOAN" :to="{name: 'ClassMeetScore'}">
                 <li class="nk-menu-item">
                     <a href="#" class="nk-menu-link">

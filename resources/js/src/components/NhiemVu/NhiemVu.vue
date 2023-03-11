@@ -34,20 +34,17 @@
                             </div>
                         </div>
                         <ul class="nav nav-tabs mb-3">
-                            <li v-if="user.role == roles.ROLE_BI_THU_DOAN" class="nav-item" @click="getChildActList(loai_hoat_dong.HOAT_DONG_NCKH, 1)">
-                                <a :class="`nav-link ${current_tab == loai_hoat_dong.HOAT_DONG_NCKH ? 'active' : ''}`" data-toggle="tab" href="#nckh"><em class="ni ni-view-list"></em> Nghiên cứu khoa học</a>
+                            <li v-if="user.role == roles.ROLE_BI_THU_DOAN" class="nav-item" @click="getChildActList(1, 1)">
+                                <a :class="`nav-link ${current_tab == loai_hoat_dong.HOAT_DONG_NCKH ? 'active' : ''}`" data-toggle="tab" href="#nckh"><em class="ni ni-view-list"></em> Tham dự các buổi sinh hoạt chi đoàn, đóng đoàn phí</a>
                             </li>
-                            <li class="nav-item" @click="getChildActList(loai_hoat_dong.HOAT_DONG_NVSP, 2)">
-                                <a :class="`nav-link ${current_tab == loai_hoat_dong.HOAT_DONG_NVSP ? 'active' : ''}`" data-toggle="tab" href="#nvsp"><em class="ni ni-view-list"></em> Nghiệp vụ Sư phạm</a>
+                            <li class="nav-item" @click="getChildActList(2, 2)">
+                                <a :class="`nav-link ${current_tab == loai_hoat_dong.HOAT_DONG_NVSP ? 'active' : ''}`" data-toggle="tab" href="#nvsp"><em class="ni ni-view-list"></em>Có đóng góp cho tập thể, phục vụ cộng đồng</a>
                             </li>
-                            <li v-if="user.role == roles.ROLE_BI_THU_DOAN" class="nav-item" @click="getChildActList(loai_hoat_dong.HOAT_DONG_DOAN, 3)">
-                                <a :class="`nav-link ${current_tab == loai_hoat_dong.HOAT_DONG_DOAN ? 'active' : ''}`" data-toggle="tab" href="#doan"><em class="ni ni-view-list"></em> Hoạt động Đoàn</a>
+                            <li v-if="user.role == roles.ROLE_BI_THU_DOAN" class="nav-item" @click="getChildActList(3, 3)">
+                                <a :class="`nav-link ${current_tab == loai_hoat_dong.HOAT_DONG_DOAN ? 'active' : ''}`" data-toggle="tab" href="#doan"><em class="ni ni-view-list"></em> Tham gia các hoạt động rèn luyện nghiệp vụ</a>
                             </li>
-                            <li v-if="user.role == roles.ROLE_BI_THU_DOAN" class="nav-item" @click="getChildActList(loai_hoat_dong.HOAT_DONG_KHAC, 4)">
-                                <a :class="`nav-link ${current_tab == loai_hoat_dong.HOAT_DONG_KHAC ? 'active' : ''}`" data-toggle="tab" href="#khac"><em class="ni ni-view-list"></em> Hoạt động Khác</a>
-                            </li>
-                            <li v-if="user.role == roles.ROLE_BI_THU_DOAN && current_tab == 2" class="nav-item">
-                                <button @click="confirmCollectPoint()" class="btn btn-sm btn-success"><em class="ni ni-col-4s"></em>Tổng hợp điểm tuần NVSP</button>
+                            <li v-if="user.role == roles.ROLE_BI_THU_DOAN" class="nav-item" @click="getChildActList(4, 4)">
+                                <a :class="`nav-link ${current_tab == loai_hoat_dong.HOAT_DONG_KHAC ? 'active' : ''}`" data-toggle="tab" href="#khac"><em class="ni ni-view-list"></em> Được tham gia học tập các lớp Đoàn viên ưu tú, bồi dưỡng nhận thức về Đảng, được kết nạp vào Đảng Cộng sản Việt Nam.</a>
                             </li>
                         </ul>
                         <div class="card card-preview">
