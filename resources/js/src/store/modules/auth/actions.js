@@ -12,7 +12,7 @@ export default {
                 commit('SET_USER_AUTH',data.user);
                 commit('SET_TOKEN',data.access_token);
                 localStorage.setItem('token', data.access_token);
-                location.href = '/';
+                location.href = '/home';
             })
             .catch((error) => {
                 if (error.errors && Object.values(error.errors).length > 0) {
