@@ -32,7 +32,7 @@
 </style>
 <body>
 	<div class="wrap-content">
-		<p>Trang hỗ trợ hoạt động đánh giá, xếp loại đoàn viên: <a href="/">https://youth-union-support-system.learning2ne1.com/</a></p>
+		<h4>Hệ thống hỗ trợ hoạt động đánh giá, xếp loại đoàn viên</h4>
 
 		<p>Liên kết đến trang đăng nhập của hệ thống: <a href="{{route('login')}}">Truy cập</a></p>
 

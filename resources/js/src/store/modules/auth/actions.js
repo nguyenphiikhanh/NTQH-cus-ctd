@@ -4,7 +4,7 @@ export default {
     login({commit, dispatch}, data){
         const token = localStorage.getItem('token');
         if(token){
-            location.href = '/';
+            location.href = '/home';
         }
         return authServices.login(data)
             .then(response => {
