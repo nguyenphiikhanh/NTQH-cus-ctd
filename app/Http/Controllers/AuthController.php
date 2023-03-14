@@ -11,6 +11,10 @@ use Illuminate\Support\Facades\Validator;
 
 class AuthController extends AppBaseController
 {
+
+    public function firstView(){
+        return view('home');
+    }
     public function index(){
         return view('login');
     }

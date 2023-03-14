@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', [AuthController::class, 'firstView'])->name('firstView');
+
 Route::get('/dang-nhap', [AuthController::class, 'index'])->name('login');
 
 Route::get('/{any?}', 'SpaController@index')->where('any', '^(?!nova|admin|horizon).*$');

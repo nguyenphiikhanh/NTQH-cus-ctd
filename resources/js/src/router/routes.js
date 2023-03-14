@@ -22,7 +22,7 @@ const routes = [
     // dashboard
     {
         name:"Home",
-        path:"/",
+        path:"/home",
         component: AdminDashBoard,
         meta:{
             title: 'Trang chủ',
