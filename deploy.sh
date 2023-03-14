@@ -1,7 +1,7 @@
 echo "Cong Tac Doan - Production Environment Deploying..."
 
 echo "pulling from origin..."
-git fetch --all && git reset --hard origin/CONGTACDOAN-deployment && git pull
+git fetch --all && git reset --hard origin/master && git pull
 
 echo "Database migrating..."
 php artisan migrate
