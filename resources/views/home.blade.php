@@ -6,7 +6,6 @@
 	<title>Trang hỗ trợ hoạt động đánh giá, xếp loại đoàn viên</title>
 </head>
 <style>
-Nguyễn Đức Thiện
 body{
 		padding: 10px 20%;
 		background-color: #eceef1;
