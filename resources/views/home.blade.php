@@ -6,7 +6,8 @@
 	<title>Trang hỗ trợ hoạt động đánh giá, xếp loại đoàn viên</title>
 </head>
 <style>
-	body{
+Nguyễn Đức Thiện
+body{
 		padding: 10px 20%;
 		background-color: #eceef1;
 	}
@@ -28,6 +29,11 @@
 	}
 	.t-center{
 		text-align: center;
+	}
+	@media screen and (max-width: 768px) {
+	  	body{
+			padding: 5px;
+		}
 	}
 </style>
 <body>
@@ -82,7 +88,6 @@
 			<li>Minh chứng được gửi từ đoàn viên ở các trạng thái:</li>
 			<ul>
 				<li>Chờ duyệt</li>
-				<li>Từ chối (Không được duyệt và xác nhận không hoàn thành nhiệm vụ. Đoàn viên có thể gửi lại minh chứng nếu cần thiết)</li>
 				<li>Từ chối (Không được duyệt và xác nhận không hoàn thành nhiệm vụ. Đoàn viên có thể gửi lại minh chứng nếu cần thiết)</li>
 				<li>Xác nhận (Được duyệt và xác nhận hoàn thành nhiệm vụ)</li>
 			</ul>
